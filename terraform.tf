@@ -2,8 +2,8 @@ variable "proveedor" {
     description = "Parametros para validar en el vcenter"
     type = map(string)
     default = {
-        user = "juan.garriz"
-        pass = "Joaquina2010"
+        user = ""
+        pass = ""
         server = "vcenter508.arba.gov.ar"
     }
 }
